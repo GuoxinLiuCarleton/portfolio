@@ -11,7 +11,7 @@
         <!--navigation -->
         <header>
             <h1>
-                <a href="/">Guoxin Liu</a>
+                <a href="/">MASc. Guoxin Liu </a>
             </h1>
             <nav>
                 <!--Unordered list element-->
@@ -19,16 +19,16 @@
                      <!--List item element-->
                      <li>
                          <!--Anchor element-->
-                         <a href="#about-me">About Me</a>
+                         <a href="./index.html#about-me">About Me</a>
                      </li>
                      <li>
-                         <a href="#works">Works</a>
+                         <a href="./index.html#works">Works</a>
                      </li>
                      <li>
-                         <a href="#contact-me">Contact Me</a>
+                         <a href="./index.html#contact-me">Contact Me</a>
                      </li>
                      <li>
-                         <a href="#resume">Resume</a>
+                         <a href="./resume.html">Resume</a>
                      </li>
                 </ul>
             </nav>
@@ -38,6 +38,9 @@
         <section class="hero">
             <div class="hero-cta">
                 <h2>Welcome!</h2> 
+                <p>
+                    My Interested Areas: Neuromorphic Computing System, AI Algorithms, AI Robots, IoT.
+                </p>
             </div>
         </section>
         <!--end hero-->
@@ -52,9 +55,17 @@
                     </aside>
     
                     <!-- Product Cards -->
-                    <div>
-                        <p>Price: $300</p>
+                    <div class="about-me-text">
+                        <ul>
+                            <li>Academic: Recieved bachlor of electrical and computer engineering from Carleton University. Received MASc. of electrical and computer engineering from Carleton University.  </li>
+                            <li>Research Interests: neuromorphic computing, AI processors</li>
+                            <li>Awards: scholarship and dean's honor on 2015,2016,2017  </li>
+                            <li><a href="https://curve.carleton.ca/101fb04c-e9b4-4d2b-94f6-5f7880308ab0">My Master Thesis</a></li>
+                        </ul>
                     </div>  
+                  
+                    
+                    
                 </main>
         </section>
 
@@ -66,34 +77,47 @@
                 <aside>
                     <h2 >Works</h2>
                 </aside>
-
+             
                 <!-- Product Cards -->
-                <div class="products">
-                    <section class="card">
-                    <h3>Camera</h3>
-                    <img src="./assets/css/aa.jpeg" alt="black camera" />
+                <div class="products-out">
+                    <section class="largecard">
+                        <a href="./neuromorphic.html">
+                            <img src="./assets/css/neuro.jpg" alt="tablet held in hands" />
+                        </a>
+                       <h3 >Neuromorphic Computing</h3>
                     </section>
 
-                    <section class="card">
-                    <h3>Tablet</h3>
-                    <img src="./assets/css/aa.jpeg" alt="tablet held in hands" />
-                    </section>
+                    <div class="products-in"> 
+                        <section class="card-left">
+                            <a href="./algorithm.html">
+                                <img src="./assets/css/ai.png" alt="tablet held in hands" />
+                            </a>
+                        <h3 >AI Algorithm</h3>
+                        </section>
 
-                    <section class="card">
-                    <h3>Toilet Paper</h3>
-                    <img
-                        src="./assets/css/aa.jpeg"
-                        alt="rolls of toilet paper in a basket"
-                    />
-                    </section>
+                        <section class="card-right">
+                            <a href="./chip.html">
+                                <img src="./assets/css/chip.jpg"alt="rolls of toilet paper in a basket"/>
+                            </a>
+                        <h3 >AI Processor</h3>
+                        </section>
+                    </div>
 
-                    <section class="card">
-                    <h3>Wooden Spoons</h3>
-                    <img
-                        src="./assets/css/aa.jpeg"
-                        alt="4 wooden spoons with different seasonings"
-                    />
-                    </section>
+                    <div class="products-in">
+                        <section class="card-left">
+                            <a href="./robot.html">
+                                <img src="./assets/css/robot.jpg"alt="4 wooden spoons with different seasonings" />
+                            </a>
+                            <h3>AI Robots</h3>
+                        </section>
+
+                        <section class="card-right">
+                            <a href="./DSP.html">
+                                <img src="./assets/css/signal.png"alt="4 wooden spoons with different seasonings" />
+                            </a>
+                            <h3>AI DSP</h3>
+                        </section>
+                    </div>
 
                 </div>  
             </main>
@@ -107,37 +131,25 @@
                 </aside>
                 <div class="contact-info">
                     <div>
-                        <h3>Run Buddy</h3>
+                        <h3>Contact Information</h3>
                         <p>
-                        Any questions or concerns before signing up?
-                        <br />
-                        Let us know and we'll be happy to talk to you!
+                            Please contact me for cooprations!  
                         </p>
                         <address>
-                        55 Main Street <br/>
-                        Some Town, Ca <br/>
-                        12345<br />
-                        P: 555.RUN.BUDZ (555.786.2839)<br/>
-                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                        xxxxxxxxxxxxx <br/>
+                        xxxxxxxxxxxx <br/>
+                        xxxxxxx<br />
+                        E: <a href="mailto:liuguoxin.good@gmail.com">liuguoxin.good@gmail.com</a>
                         </address>
                     </div>
-
-                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus" width="400" height="400"  style="border:0;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                    
                 </div>
              </main>
         </section>
      
         <!--footer-->
         <footer class="footer">
-            <h2>❤️ Made with love by Run Buddy.</h2>
-            <div>
-                <a href="./privacy-policy.html">Read Our Privacy Policy </a>
-                <br />
-                &copy; 2019 Run Buddy, Inc.
-            </div>
+            <h2>welcome to my website!</h2>
+            
         </footer>
       
     </body>
