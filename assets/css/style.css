@@ -234,7 +234,11 @@ aside h2 {
     border-radius: 0;
     padding: 0;
     flex: 0 0 400px;
+    filter:brightness(50%);
   }
+ .card:hover {
+    filter:brightness(100%);
+ }
 
 .card h3{
     position:relative;
@@ -249,7 +253,7 @@ aside h2 {
 
 .card img {
     width:100%;
-   
+    
 }
 
 
