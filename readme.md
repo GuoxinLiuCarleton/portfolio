@@ -5,5 +5,5 @@ Hello! My name is Guoxin Liu. This is my second project. In this project I desig
 # This is a repository link
 https://guoxinliucarleton.github.io/portfolio/index.html
 # This is my github
-https://github.com/GuoxinLiuCarleton/uotm
+https://github.com/GuoxinLiuCarleton/portfolio
 
